@@ -2,7 +2,6 @@ module.exports = {
     title: 'vuepress exam',
     description: 'react vuperess exam',
     base: '/blog/',
-    dest: '.vuepress/dist',
     themeConfig: {
         tags:"/tags",
         /*sidebarDepth: 2,*/
