@@ -11,8 +11,10 @@
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "sh deploy.sh"
   },
+  "pre-push": ["deploy"],,
   "author": "",
   "license": "ISC"
 }
