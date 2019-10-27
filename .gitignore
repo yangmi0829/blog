@@ -10,6 +10,7 @@ tests/**/coverage/
 tests/e2e/reports
 selenium-debug.log
 /docs/.vuepress/dist
+.vuepress
 
 # Editor directories and files
 .idea
